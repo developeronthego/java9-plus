@@ -5,6 +5,7 @@
 	<groupId>pl.developeronthego</groupId>
 	<artifactId>java9-plus</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<resources>
@@ -26,4 +27,8 @@
 			</plugin>
 		</plugins>
 	</build>
+	<modules>
+		<module>helloworld</module>
+		<module>hellomain</module>
+	</modules>
 </project>
